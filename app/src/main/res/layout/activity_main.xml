@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="demo1"
+        android:textColor="#FF333333"
+        android:textSize="20sp" />
+
+    <com.mmlovesyy.linkview.LinkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_link"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        app:drawableHeight="45dp"
+        app:drawableWidth="45dp"
+        app:maxLines="2"
+        app:srcDrawable="@mipmap/eye"
+        app:text="是否经常感到眼睛干涩吗？该如何缓解及防治呢？"
+        app:textLeftMargin="6dp"
+        app:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="demo2"
+        android:textColor="#FF333333"
+        android:textSize="20sp" />
+
+    <com.mmlovesyy.linkview.LinkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_link"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        app:drawableHeight="45dp"
+        app:drawableWidth="45dp"
+        app:maxLines="2"
+        app:srcDrawable="@mipmap/eye"
+        app:text="是否经常感到眼睛干涩吗？该如何缓解及防治呢？本文用大量图片的形式教你各种小技巧、小工具、小知识。。。。。"
+        app:textLeftMargin="6dp"
+        app:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:text="demo3"
+        android:textColor="#FF333333"
+        android:textSize="20sp" />
+
+    <com.mmlovesyy.linkview.LinkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_btn"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        app:drawableHeight="16dp"
+        app:drawableWidth="16dp"
+        app:srcDrawable="@mipmap/icon_btn"
+        app:text="评论"
+        app:textLeftMargin="4dp"
+        app:textSize="12sp" />
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/bg_feed_item_comment_btn"-->
+    <!--android:clickable="true"-->
+    <!--android:drawableLeft="@mipmap/icon_feed_comment_btn_normal"-->
+    <!--android:drawablePadding="4dp"-->
+    <!--android:paddingBottom="5dp"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:paddingRight="15dp"-->
+    <!--android:paddingTop="5dp"-->
+    <!--android:text="评论"-->
+    <!--android:textSize="12sp" />-->
+
+</LinearLayout>

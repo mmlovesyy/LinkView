@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="LinkView">
+        <attr name="text" format="string" />
+        <attr name="maxLines" format="integer" />
+        <attr name="textSize" format="dimension" />
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textLineSpacing" format="float" />
+        <attr name="textLeftMargin" format="dimension" />
+        <attr name="srcDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>
