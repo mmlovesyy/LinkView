@@ -1,7 +1,7 @@
 # LinkView
 仿朋友圈分享链接的自定义 View
 
-<img src="linkview.png" width="600px" />
+<img src="linkview.png" width="400px" />
 
 ## 使用方法
 
